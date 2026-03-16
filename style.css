@@ -1618,428 +1618,408 @@ body::-webkit-scrollbar {
 }
 
 
-
 @media (max-width: 767px) {
     
     :root {
-        --nav-height: 64px;
-        --mobile-nav-height: 56px;
+        --nav-height: 60px;
+        --mobile-nav-height: 52px;
     }
 
     .nav-container {
-        height: 64px;
-        padding: 0 16px;
-    }
-
-    .logo-text {
-        font-size: 20px;
+        height: 60px;
+        padding: 0 12px;
     }
 
     .nav-logo .material-symbols-outlined {
-        font-size: 24px;
+        font-size: 22px;
     }
 
-    .theme-toggle {
-        width: 36px;
-        height: 36px;
-    }
-
-    .theme-toggle .material-symbols-outlined {
-        font-size: 20px;
-    }
-
-    .mobile-nav {
-        padding: 6px 8px 10px;
-    }
-
-    .mobile-nav-link .material-symbols-outlined {
-        font-size: 20px;
-    }
-
-    .mobile-nav-link span:last-child {
-        font-size: 9px;
-    }
-
-    .hero-container {
-        gap: 32px;
-    }
-
-    .hero-content {
-        gap: 24px;
-    }
-
-    .status-badge {
-        padding: 5px 12px;
-        font-size: 10px;
-    }
-
-    .status-dot {
-        width: 6px;
-        height: 6px;
-    }
-
-    .hero-title {
-        font-size: clamp(2rem, 8vw, 2.5rem);
-        line-height: 1.15;
-    }
-
-    .hero-underline {
-        height: 10px;
-        bottom: 2px;
-    }
-
-    .hero-subtitle-wrapper {
-        font-size: clamp(1rem, 4vw, 1.2rem);
-        margin-top: 12px;
-    }
-
-    .hero-description {
-        font-size: 16px;
-        line-height: 1.6;
-    }
-
-    .hero-actions {
-        gap: 16px;
-    }
-
-    .btn-primary {
-        padding: 12px 24px;
-        font-size: 14px;
-    }
-
-    .btn-primary .material-symbols-outlined {
+    .logo-text {
         font-size: 18px;
     }
 
-    .hero-socials {
+    .theme-toggle {
+        width: 34px;
+        height: 34px;
+    }
+
+    .theme-toggle .material-symbols-outlined {
+        font-size: 18px;
+    }
+
+    .mobile-nav {
+        padding: 4px 6px 8px;
+    }
+
+    .mobile-nav-link .material-symbols-outlined {
+        font-size: 18px;
+    }
+
+    .mobile-nav-link span:last-child {
+        font-size: 8px;
+    }
+
+    .hero-container {
+        gap: 24px;
+    }
+
+    .hero-content {
         gap: 20px;
-        padding-top: 12px;
+    }
+
+    .status-badge {
+        padding: 4px 10px;
+        font-size: 9px;
+    }
+
+    .status-dot {
+        width: 5px;
+        height: 5px;
+    }
+
+    .hero-title {
+        font-size: clamp(1.75rem, 8vw, 2.25rem);
+        line-height: 1.1;
+    }
+
+    .hero-underline {
+        height: 8px;
+        bottom: 1px;
+    }
+
+    .hero-subtitle-wrapper {
+        font-size: clamp(0.9rem, 4vw, 1.1rem);
+        margin-top: 8px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .hero-actions {
+        gap: 12px;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .btn-primary .material-symbols-outlined {
+        font-size: 16px;
+    }
+
+    .hero-socials {
+        gap: 16px;
+        padding-top: 8px;
     }
 
     .hero-socials svg {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
     }
 
     .section {
-        min-height: calc(100vh - 64px - 56px);
-        margin-top: 64px;
-        padding-bottom: 56px;
+        min-height: calc(100vh - 60px - 52px);
+        margin-top: 60px;
+        padding-bottom: 52px;
     }
 
     .section-container {
-        padding: 0 16px;
+        padding: 0 12px;
     }
 
     .section-header {
-        margin-bottom: 40px;
+        margin-bottom: 32px;
     }
 
     .section-tag {
-        font-size: 11px;
-        margin-bottom: 6px;
+        font-size: 10px;
+        margin-bottom: 4px;
     }
 
     .section-dot {
-        width: 6px;
-        height: 6px;
-        margin-right: 6px;
+        width: 5px;
+        height: 5px;
+        margin-right: 5px;
     }
 
     .section-title {
-        font-size: clamp(1.5rem, 5vw, 1.8rem);
-        margin-bottom: 12px;
-        letter-spacing: 1.5px;
+        font-size: clamp(1.35rem, 5vw, 1.65rem);
+        margin-bottom: 8px;
+        letter-spacing: 1px;
+    }
+
+    .about-code-block {
+        display: none;
     }
 
     .about-grid {
-        gap: 32px;
+        gap: 0;
+        grid-template-columns: 1fr;
     }
 
     .about-text {
-        font-size: 15px;
-        line-height: 1.65;
-        margin-bottom: 14px;
-    }
-
-    .code-editor {
-        transform: rotate(-1deg);
-    }
-
-    .editor-header {
-        padding: 10px 14px;
-    }
-
-    .editor-dots {
-        gap: 6px;
-    }
-
-    .dot {
-        width: 10px;
-        height: 10px;
-    }
-
-    .editor-filename {
-        font-size: 11px;
-    }
-
-    .editor-body {
-        padding: 16px;
-    }
-
-    .code-pre code {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.6;
+        margin-bottom: 12px;
     }
 
     .stats-grid {
-        gap: 12px;
-        margin-top: 24px;
+        gap: 10px;
+        margin-top: 20px;
         display: grid;
     }
 
     .stat-card {
-        padding: 16px;
+        padding: 12px;
     }
 
     .stat-number {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .stat-label {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .skills-scroll-wrapper {
-        margin-left: -16px;
-        margin-right: -16px;
-        padding-left: 16px;
-        padding-right: 16px;
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .skills-scroll-wrapper::before,
     .skills-scroll-wrapper::after {
-        width: 60px;
+        width: 50px;
     }
 
     .skills-grid {
-        gap: 16px;
-        padding: 12px 4px 20px;
-        margin: -12px -4px -20px;
+        gap: 12px;
+        padding: 10px 4px 16px;
+        margin: -10px -4px -16px;
     }
 
     .skill-card {
-        min-width: 220px;
-        max-width: 260px;
-        padding: 20px;
+        min-width: 200px;
+        max-width: 240px;
+        padding: 16px;
     }
 
     .skill-icon {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 12px;
+        width: 36px;
+        height: 36px;
+        margin-bottom: 10px;
     }
 
     .skill-icon .material-symbols-outlined {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .skill-name {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .skill-desc {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .projects-header {
-        gap: 12px;
-        margin-bottom: 32px;
+        gap: 10px;
+        margin-bottom: 24px;
     }
 
     .github-link {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .github-link .material-symbols-outlined {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .projects-scroll-wrapper {
-        margin-left: -16px;
-        margin-right: -16px;
-        padding-left: 16px;
-        padding-right: 16px;
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .projects-scroll-wrapper::before,
     .projects-scroll-wrapper::after {
-        width: 60px;
+        width: 50px;
     }
 
     .projects-grid {
-        gap: 20px;
-        padding: 12px 4px 20px;
-        margin: -12px -4px -20px;
+        gap: 16px;
+        padding: 10px 4px 16px;
+        margin: -10px -4px -16px;
     }
 
     .project-card {
-        min-width: 280px;
-        max-width: 320px;
+        min-width: 260px;
+        max-width: 300px;
     }
 
     .project-image {
-        height: 180px;
+        height: 160px;
     }
 
     .project-info {
-        padding: 20px;
+        padding: 16px;
     }
 
     .project-tags {
-        gap: 6px;
-        margin-bottom: 10px;
+        gap: 5px;
+        margin-bottom: 8px;
     }
 
     .project-tag {
-        padding: 3px 8px;
-        font-size: 10px;
+        padding: 3px 7px;
+        font-size: 9px;
     }
 
     .project-name {
-        font-size: 18px;
-        margin-bottom: 6px;
-        letter-spacing: 1px;
+        font-size: 16px;
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
     }
 
     .project-desc {
-        font-size: 13px;
-        margin-bottom: 14px;
-        line-height: 1.55;
+        font-size: 12px;
+        margin-bottom: 12px;
+        line-height: 1.5;
     }
 
     .project-link {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .project-link .material-symbols-outlined {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .project-icon-main {
-        font-size: 48px !important;
+        font-size: 44px !important;
     }
 
     .project-icon-label {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .code-card-inner {
-        padding: 14px;
+        padding: 12px;
     }
 
     .code-card-dots {
-        gap: 6px;
-        margin-bottom: 12px;
-        padding-bottom: 6px;
+        gap: 5px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
     }
 
     .dot.red,
     .dot.yellow,
     .dot.green {
-        width: 10px;
-        height: 10px;
+        width: 9px;
+        height: 9px;
     }
 
     .code-content {
-        padding: 20px;
-        font-size: 12px;
-        line-height: 1.7;
+        padding: 16px;
+        font-size: 11px;
+        line-height: 1.6;
     }
 
     .code-notification {
-        bottom: 12px;
-        right: 12px;
-        padding: 10px;
-        gap: 10px;
+        bottom: 10px;
+        right: 10px;
+        padding: 8px;
+        gap: 8px;
     }
 
     .notif-icon {
-        width: 28px;
-        height: 28px;
+        width: 24px;
+        height: 24px;
     }
 
     .notif-icon .material-symbols-outlined {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .notif-line {
-        height: 6px;
-    }
-
-    .notif-line.long {
-        width: 56px;
-    }
-
-    .notif-line.short {
-        width: 36px;
         height: 5px;
     }
 
+    .notif-line.long {
+        width: 48px;
+    }
+
+    .notif-line.short {
+        width: 30px;
+        height: 4px;
+    }
+
     .back-to-top {
-        bottom: 80px;
-        right: 16px;
-        width: 44px;
-        height: 44px;
+        bottom: 72px;
+        right: 12px;
+        width: 42px;
+        height: 42px;
     }
 
     .back-to-top .material-symbols-outlined {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .shape-blob {
-        width: 300px;
-        height: 300px;
-        filter: blur(60px);
+        width: 260px;
+        height: 260px;
+        filter: blur(50px);
+        opacity: 0.5;
     }
 
     .blob-ring {
-        top: 60px;
-        left: 20px;
-        width: 80px;
-        height: 80px;
+        top: 50px;
+        left: 15px;
+        width: 70px;
+        height: 70px;
     }
+
     body {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .material-symbols-outlined {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .icon-sm {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     .icon-xs {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 }
 
 @media (max-width: 374px) {
     .hero-title {
-        font-size: 1.85rem;
+        font-size: 1.65rem;
     }
 
     .skill-card {
-        min-width: 200px;
+        min-width: 180px;
     }
 
     .project-card {
-        min-width: 260px;
+        min-width: 240px;
     }
 
     .section-container {
-        padding: 0 12px;
+        padding: 0 10px;
+    }
+
+    .nav-container {
+        padding: 0 10px;
     }
 }
