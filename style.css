@@ -1616,3 +1616,430 @@ body::-webkit-scrollbar {
         display: none;
     }
 }
+
+
+
+@media (max-width: 767px) {
+    
+    :root {
+        --nav-height: 64px;
+        --mobile-nav-height: 56px;
+    }
+
+    .nav-container {
+        height: 64px;
+        padding: 0 16px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .nav-logo .material-symbols-outlined {
+        font-size: 24px;
+    }
+
+    .theme-toggle {
+        width: 36px;
+        height: 36px;
+    }
+
+    .theme-toggle .material-symbols-outlined {
+        font-size: 20px;
+    }
+
+    .mobile-nav {
+        padding: 6px 8px 10px;
+    }
+
+    .mobile-nav-link .material-symbols-outlined {
+        font-size: 20px;
+    }
+
+    .mobile-nav-link span:last-child {
+        font-size: 9px;
+    }
+
+    .hero-container {
+        gap: 32px;
+    }
+
+    .hero-content {
+        gap: 24px;
+    }
+
+    .status-badge {
+        padding: 5px 12px;
+        font-size: 10px;
+    }
+
+    .status-dot {
+        width: 6px;
+        height: 6px;
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 8vw, 2.5rem);
+        line-height: 1.15;
+    }
+
+    .hero-underline {
+        height: 10px;
+        bottom: 2px;
+    }
+
+    .hero-subtitle-wrapper {
+        font-size: clamp(1rem, 4vw, 1.2rem);
+        margin-top: 12px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .hero-actions {
+        gap: 16px;
+    }
+
+    .btn-primary {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .btn-primary .material-symbols-outlined {
+        font-size: 18px;
+    }
+
+    .hero-socials {
+        gap: 20px;
+        padding-top: 12px;
+    }
+
+    .hero-socials svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section {
+        min-height: calc(100vh - 64px - 56px);
+        margin-top: 64px;
+        padding-bottom: 56px;
+    }
+
+    .section-container {
+        padding: 0 16px;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-tag {
+        font-size: 11px;
+        margin-bottom: 6px;
+    }
+
+    .section-dot {
+        width: 6px;
+        height: 6px;
+        margin-right: 6px;
+    }
+
+    .section-title {
+        font-size: clamp(1.5rem, 5vw, 1.8rem);
+        margin-bottom: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .about-grid {
+        gap: 32px;
+    }
+
+    .about-text {
+        font-size: 15px;
+        line-height: 1.65;
+        margin-bottom: 14px;
+    }
+
+    .code-editor {
+        transform: rotate(-1deg);
+    }
+
+    .editor-header {
+        padding: 10px 14px;
+    }
+
+    .editor-dots {
+        gap: 6px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .editor-filename {
+        font-size: 11px;
+    }
+
+    .editor-body {
+        padding: 16px;
+    }
+
+    .code-pre code {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .stats-grid {
+        gap: 12px;
+        margin-top: 24px;
+        display: grid;
+    }
+
+    .stat-card {
+        padding: 16px;
+    }
+
+    .stat-number {
+        font-size: 1.75rem;
+    }
+
+    .stat-label {
+        font-size: 12px;
+    }
+
+    .skills-scroll-wrapper {
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .skills-scroll-wrapper::before,
+    .skills-scroll-wrapper::after {
+        width: 60px;
+    }
+
+    .skills-grid {
+        gap: 16px;
+        padding: 12px 4px 20px;
+        margin: -12px -4px -20px;
+    }
+
+    .skill-card {
+        min-width: 220px;
+        max-width: 260px;
+        padding: 20px;
+    }
+
+    .skill-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 12px;
+    }
+
+    .skill-icon .material-symbols-outlined {
+        font-size: 22px;
+    }
+
+    .skill-name {
+        font-size: 15px;
+    }
+
+    .skill-desc {
+        font-size: 11px;
+    }
+
+    .projects-header {
+        gap: 12px;
+        margin-bottom: 32px;
+    }
+
+    .github-link {
+        font-size: 12px;
+    }
+
+    .github-link .material-symbols-outlined {
+        font-size: 16px;
+    }
+
+    .projects-scroll-wrapper {
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .projects-scroll-wrapper::before,
+    .projects-scroll-wrapper::after {
+        width: 60px;
+    }
+
+    .projects-grid {
+        gap: 20px;
+        padding: 12px 4px 20px;
+        margin: -12px -4px -20px;
+    }
+
+    .project-card {
+        min-width: 280px;
+        max-width: 320px;
+    }
+
+    .project-image {
+        height: 180px;
+    }
+
+    .project-info {
+        padding: 20px;
+    }
+
+    .project-tags {
+        gap: 6px;
+        margin-bottom: 10px;
+    }
+
+    .project-tag {
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+
+    .project-name {
+        font-size: 18px;
+        margin-bottom: 6px;
+        letter-spacing: 1px;
+    }
+
+    .project-desc {
+        font-size: 13px;
+        margin-bottom: 14px;
+        line-height: 1.55;
+    }
+
+    .project-link {
+        font-size: 13px;
+    }
+
+    .project-link .material-symbols-outlined {
+        font-size: 16px;
+    }
+
+    .project-icon-main {
+        font-size: 48px !important;
+    }
+
+    .project-icon-label {
+        font-size: 10px;
+    }
+
+    .code-card-inner {
+        padding: 14px;
+    }
+
+    .code-card-dots {
+        gap: 6px;
+        margin-bottom: 12px;
+        padding-bottom: 6px;
+    }
+
+    .dot.red,
+    .dot.yellow,
+    .dot.green {
+        width: 10px;
+        height: 10px;
+    }
+
+    .code-content {
+        padding: 20px;
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .code-notification {
+        bottom: 12px;
+        right: 12px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .notif-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .notif-icon .material-symbols-outlined {
+        font-size: 16px;
+    }
+
+    .notif-line {
+        height: 6px;
+    }
+
+    .notif-line.long {
+        width: 56px;
+    }
+
+    .notif-line.short {
+        width: 36px;
+        height: 5px;
+    }
+
+    .back-to-top {
+        bottom: 80px;
+        right: 16px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .back-to-top .material-symbols-outlined {
+        font-size: 20px;
+    }
+
+    .shape-blob {
+        width: 300px;
+        height: 300px;
+        filter: blur(60px);
+    }
+
+    .blob-ring {
+        top: 60px;
+        left: 20px;
+        width: 80px;
+        height: 80px;
+    }
+    body {
+        font-size: 15px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 22px;
+    }
+
+    .icon-sm {
+        font-size: 16px !important;
+    }
+
+    .icon-xs {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 374px) {
+    .hero-title {
+        font-size: 1.85rem;
+    }
+
+    .skill-card {
+        min-width: 200px;
+    }
+
+    .project-card {
+        min-width: 260px;
+    }
+
+    .section-container {
+        padding: 0 12px;
+    }
+}
