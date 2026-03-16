@@ -94,7 +94,7 @@
   function toggleBackToTop() {
     if (!backToTopBtn) return;
 
-    if (window.scrollY > 300) {
+    if (window.scrollY > 250) {
       backToTopBtn.removeAttribute("hidden");
       backToTopBtn.classList.add("visible");
     } else {
