@@ -2002,6 +2002,13 @@ body::-webkit-scrollbar {
     }
 }
 
+.project-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 374px) {
     .hero-title {
         font-size: 1.65rem;
