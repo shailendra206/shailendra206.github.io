@@ -108,6 +108,19 @@
     box-sizing: border-box;
 }
 
+.material-symbols-outlined {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.material-symbols-outlined svg {
+    width: 1em;
+    height: 1em;
+    display: block;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: var(--nav-height);
