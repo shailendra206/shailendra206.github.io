@@ -11,10 +11,10 @@
 
   function getPreferredTheme() {
     var stored = localStorage.getItem("theme");
-    if (stored) {
+    if (stored === "light" || stored === "dark") {
       return stored;
     }
-    return "light";
+    return "dark";
   }
 
   function applyTheme(theme) {
@@ -24,6 +24,10 @@
       var label =
         theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
       themeToggleBtn.setAttribute("aria-label", label);
+      themeToggleBtn.setAttribute(
+        "aria-checked",
+        theme === "dark" ? "true" : "false",
+      );
     }
   }
 
